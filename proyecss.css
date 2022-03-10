@@ -8,17 +8,10 @@ html{
 body{
     background-color: #efefef;
 }
-h1{
-    padding: 8px;
-    padding-top: 1px;
-}
-.location {
-    margin-left: 8px;
-    float: left;
-}
-
 .up{
+    
     margin: 6px;
+    padding-bottom: 1px;
     border-radius: 0.7rem;
     border: 1pt rgb(185, 185, 185) solid;
     
@@ -31,14 +24,25 @@ h1{
 
 }
 .perfil{
-   position: relative;
-    bottom: 50px;
-    left: 15px;
-    border-radius: 0.1rem;
+    position: relative;
+     bottom: 50px;
+     left: 15px;
+     border-radius: 0.1rem;
+ 
+ }
 
-
+h1{
+    padding: 8px;
+    padding-top: 0.1px;
 }
+.location {
+    margin-bottom: 8px;
+    margin-left: 8px;
+    float: left;
+}
+
 .up a{
+    margin-bottom: 8px;
     display: flex;
     text-decoration: none;
     padding-left: 10px;
@@ -46,9 +50,11 @@ h1{
 }
 
 .col2 {
-    padding-top: 0.3rem;
     display: flex;
     float: left;
+    margin: 3px;
+    padding-top: 0.3rem;
+    
     
 }
 .interes{
@@ -131,6 +137,26 @@ h1{
     margin-left: 8px;
     border-radius: 10px solid;
 }
+.col5{
+    border-radius: 1rem;
+    border: 1pt rgb(185, 185, 185) solid;
+    margin: 8px;
+    background-color: rgb(255, 254, 253);
+}
+.educacion {
+    border-radius: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    margin-left: 8px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.detalledu{
+    padding-bottom: 0.5rem;
+    margin-left: 8px;
+    border-radius: 10px solid;
+}
+
 
 
 
